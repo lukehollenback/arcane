@@ -1,8 +1,5 @@
-/**
- * @desc Processes a raw chat message that was entered by the user.
- *
- * @arg0 message The raw message to process.
- */
+/// @description Processes a raw chat message that was entered by the user.
+/// @arg0 message The raw message to process.
  
 var message = argument0;
 
@@ -42,7 +39,7 @@ if (isCommand) {
 		chat_append_message("  - ", "!msg [player] [message]  Sends a private message.", cc_gray);
 		chat_append_message("  - ", "!morehelp  Shows even more available commands.", cc_gray)
 	} else if (commandVerb == "morehelp") {
-		chat_append_message("Game: ", "The following commands are allowed...", cc_ltgray);
+		chat_append_message("Game: ", "The following commands are allowed...", cc_gray);
 		chat_append_message("  - ", "!kick [player]  Moderator only. Kicks a player.", cc_gray);
 		chat_append_message("  - ", "!ban [player]  Moderator only. Bans a player.", cc_gray);
 		chat_append_message("  - ", "!help  Shows even more available commands.", cc_gray)
@@ -50,7 +47,11 @@ if (isCommand) {
 		chat_append_message("Game: ", "An unknown command was specified.", cc_gray);
 	}
 } else {
-	var messagePrefix = "Zaedaux: ";
+	//
+	// Generate and send a chat message payload to the server. If the server accepts it, we will
+	// subsequently receive it back and will add it to the chat module at that time.
+	//
+	var msg = msg_create_chat(message)
 		
-	chat_append_message(messagePrefix, message, cc_white);
+	tcp_send_msg(msg)
 }
