@@ -1,5 +1,11 @@
+///
 /// @description Converts a color classification (e.g. from a chat message) into an actual usable
 ///  color.
+///
+/// @param {string} The message classification to obtain a color for.
+///
+/// @return {number} The color associated with the provided classification string.
+///
 
 var colorClass = argument0
 

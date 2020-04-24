@@ -1,12 +1,13 @@
-/**
- * @desc Checks to see if the mouse is currently within the specified position.
- *
- * @arg0 x1
- * @arg1 y1
- * @arg2 x2
- * @arg3 y2
- * @returns True if the mouse is within the specified position, or false otherwise.
- */
+///
+/// @description Checks to see if the mouse is currently within the specified position.
+///
+/// @param x1 {number}
+/// @param y1 {number}
+/// @param x2 {number}
+/// @param y2 {number}
+///
+/// @return {bool} True if the mouse is within the specified position, or false otherwise.
+///
 
 var x1 = argument0;
 var y1 = argument1;

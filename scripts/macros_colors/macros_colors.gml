@@ -1,3 +1,7 @@
+///
+/// @description Registers custom color macros into the global scope.
+///
+
 // NOTE: Most colors used in this game come from the ROSY-42 color palette.
 // NOTE: Make sure to NOT put semicolons at the end of macros!
 

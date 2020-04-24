@@ -1,11 +1,11 @@
-/**
- * @desc Appends a new chat message to the chat module. Takes length into account and
- *       appropriately breaks lines if necessary.
- *
- * @arg0 prefix  Prefix of the message (e.g. indentation or a character name).
- * @arg1 message The message to append.
- * @arg2 color   The color of the message to append.
- */
+///
+/// @description Appends a new chat message to the chat module. Takes length into account and
+///  appropriately breaks lines if necessary.
+///
+/// @param {string} prefix  Prefix of the message (e.g. indentation or a character name).
+/// @param {string} message The message to append.
+/// @param {number} color   The color of the message to append.
+///
 
 //
 // Pull out the arguments of this script into named variables. Clean the message as we do so.

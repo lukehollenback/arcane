@@ -1,9 +1,9 @@
-/**
- * @desc Appends an individual line to the chat module.
- 
- * @arg0 message – The message to append.
- * @arg1 color – The color of the message to append.
- */
+///
+/// @description Appends an individual line to the chat module.
+///
+/// @param {string} message The message to append.
+/// @param {number} color   The color of the message to append.
+///
 
 //
 // Clear out the oldest line if we already have our maximum number of lines.

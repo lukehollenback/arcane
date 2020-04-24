@@ -1,5 +1,9 @@
+///
 /// @description Encodes and sends the provided message to the server over the
 ///  established TCP/IP connection.
+///
+/// @param {string} message The message to encode and send.
+///
 
 var msg = argument0
 

@@ -1,5 +1,8 @@
+///
 /// @description Processes a raw chat message that was entered by the user.
-/// @arg0 message The raw message to process.
+///
+/// @param message {string} The raw message to process.
+///
  
 var message = argument0;
 

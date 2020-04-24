@@ -1,4 +1,6 @@
+///
 /// @description Handles the "network_type_data" async networking event.
+///
 
 var msgBuff = async_load[?"buffer"]
 

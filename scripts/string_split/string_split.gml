@@ -1,4 +1,9 @@
+///
 /// @description Splits a given string into an array of segments by the specified delimiter.
+///
+/// @param {string} string The string to split.
+/// @param {string} delim  The single-character delimiter by which the string should be split.
+///
 
 var str = argument0
 var delimiter = argument1

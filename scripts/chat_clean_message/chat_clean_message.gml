@@ -1,9 +1,10 @@
-/**
- * @desc Cleans dangerous characters (e.g. line breaks) in the provided message.
- 
- * @arg0 message – The message to clean.
- * @returns The cleaned message
- */
+///
+/// @description Cleans dangerous characters (e.g. line breaks) in the provided message.
+///
+/// @param {string} message The message to clean.
+///
+/// @return {string} The cleaned message.
+///
 
 var cleanMessage = argument0;
 

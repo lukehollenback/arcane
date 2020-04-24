@@ -5,32 +5,32 @@
 //  at least 32 pixels (a.k.a. one tile) in the specified direction when a movement action is
 //  specified.
 //
-var movementKeyIsPressed = false;
+var movementIsTriggered = false;
 var xIsAligned = ((x % 32) == 0);
 var yIsAligned = ((y % 32) == 0);
 
 
-if (keyboard_check(vk_right) && yIsAligned) {
+if (actionMoveRight && yIsAligned) {
 	direction = 0;
-	movementKeyIsPressed = true;
+	movementIsTriggered = true;
 }
 
-if (keyboard_check(vk_up) && xIsAligned) {
+if (actionMoveUp && xIsAligned) {
 	direction = 90;
-	movementKeyIsPressed = true;
+	movementIsTriggered = true;
 }
 
-if (keyboard_check(vk_left) && yIsAligned) {
+if (actionMoveLeft && yIsAligned) {
 	direction = 180;
-	movementKeyIsPressed = true;
+	movementIsTriggered = true;
 }
 
-if (keyboard_check(vk_down) && xIsAligned) {
+if (actionMoveDown && xIsAligned) {
 	direction = 270;
-	movementKeyIsPressed = true;
+	movementIsTriggered = true;
 }
 
-if (movementKeyIsPressed) {
+if (movementIsTriggered) {
 	speed = 2;
 } else if (xIsAligned && yIsAligned) {
 	speed = 0;
