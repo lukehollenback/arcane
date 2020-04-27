@@ -54,7 +54,7 @@ if (isCommand) {
 	// Generate and send a chat message payload to the server. If the server accepts it, we will
 	// subsequently receive it back and will add it to the chat module at that time.
 	//
-	var msg = msg_create_chat(message)
+	var msg = msg_chat_create(message)
 		
 	tcp_send_msg(msg)
 }

@@ -40,7 +40,7 @@ if conn < 0 {
 	//
 	// Generate and send our initial auth message to kick off the authentication handshake.
 	//
-	var msg = msg_create_auth("12345")
+	var msg = msg_auth_create("12345")
 	
 	tcp_send_msg(msg)
 }
