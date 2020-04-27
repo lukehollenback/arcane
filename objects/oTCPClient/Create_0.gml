@@ -12,6 +12,11 @@ enum TCPClientStates {
 }
 
 //
+// Initialize message handlers.
+//
+msg_init()
+
+//
 // Instantiate some instance variables.
 //
 state = TCPClientStates.CONN // The current state of the state machine.

@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2a112569-21b1-4d56-b45a-dde177d70158",
+            "Value": {
+                "id": "905b0f74-e709-425c-b9b3-eb0bf5abf01f",
+                "resourcePath": "scripts\/msg_register\/msg_register.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2b50909d-29ed-4487-9253-f2438892e97c",
             "Value": {
                 "id": "035e5dbe-b086-4361-b1b3-6ba581c52f98",
@@ -115,6 +123,14 @@
             "Value": {
                 "id": "acc319da-a567-4a36-b293-13639ccbbcd9",
                 "resourcePath": "scripts\/macros_colors\/macros_colors.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3845a2e2-9c24-4a8a-92d6-f6fb2b923423",
+            "Value": {
+                "id": "cb8a5fd1-aebb-4a2d-9ad5-0ca7f04e14ef",
+                "resourcePath": "scripts\/msg_chat_handle\/msg_chat_handle.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -191,6 +207,14 @@
             }
         },
         {
+            "Key": "78e0a7b9-7fae-4b08-8e20-e7d0b9d8955d",
+            "Value": {
+                "id": "4a867ecc-6136-4dde-a160-f9959ba1d58b",
+                "resourcePath": "scripts\/msg_auth_handle\/msg_auth_handle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7b3af14a-1628-497f-a62f-36b21a469a23",
             "Value": {
                 "id": "32c655fa-f766-4b7f-87bd-45b911531503",
@@ -223,6 +247,14 @@
             }
         },
         {
+            "Key": "8465db84-627f-4907-8fef-e8d1a519c517",
+            "Value": {
+                "id": "b2952354-0bc2-4746-a57c-85c0adac3427",
+                "resourcePath": "scripts\/msg_init\/msg_init.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8494726d-6be1-4c03-ab15-6adaf232d45f",
             "Value": {
                 "id": "7c7dbdc1-444a-4f9d-9cc7-b4d93683201e",
@@ -244,6 +276,14 @@
                 "id": "a37eba26-79c1-4c23-bd1b-bf5f1f236681",
                 "resourcePath": "views\/86733bdc-7092-4449-9d06-8d48e5012fe2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88421203-f365-4203-886d-c2db66b65181",
+            "Value": {
+                "id": "121d3a83-c88a-4b1e-88f0-782d1f8f20e5",
+                "resourcePath": "scripts\/msg_disc_handle\/msg_disc_handle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -332,6 +372,14 @@
                 "id": "962342b9-b6be-4a0e-b451-eec100a31248",
                 "resourcePath": "notes\/November Font License.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "b77a8201-9264-454a-8a5e-23bc14c0c920",
+            "Value": {
+                "id": "e64fdd9f-2185-4201-8f36-9c01e43aef89",
+                "resourcePath": "scripts\/msg_handle\/msg_handle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -499,6 +547,12 @@
         "a0bf3d94-2b49-4bd1-912e-861971d3ce01",
         "bc40ff95-1665-4044-b565-bc8a811018a4",
         "0b0e23b0-756c-4ff6-bc5d-34f8cc688719",
+        "8465db84-627f-4907-8fef-e8d1a519c517",
+        "b77a8201-9264-454a-8a5e-23bc14c0c920",
+        "3845a2e2-9c24-4a8a-92d6-f6fb2b923423",
+        "2a112569-21b1-4d56-b45a-dde177d70158",
+        "78e0a7b9-7fae-4b08-8e20-e7d0b9d8955d",
+        "88421203-f365-4203-886d-c2db66b65181",
         "57c0d20d-c2a9-48ed-b04f-6481035b818c",
         "e6b2091f-19a8-4a2c-986a-e94c6393b257"
     ],

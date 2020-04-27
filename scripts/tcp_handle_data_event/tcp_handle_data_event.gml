@@ -12,41 +12,6 @@ while (buffer_peek(msgBuff, buffer_tell(msgBuff), buffer_u8) != undefined) {
 	show_debug_message(string(ip) + ":" + string(port) + " ↝ " + msgRaw)
 	
 	var msgDecoded = json_decode(msgRaw)
-	var msgKey = ds_map_find_value(msgDecoded, "Key")
-	var msgData = ds_map_find_value(msgDecoded, "Data")
 	
-	switch msgKey {
-		case "Auth":
-			show_debug_message("Authentication was successful.")
-		
-			state = TCPClientStates.READY
-			
-			break
-			
-		case "Disc":
-			show_debug_message("The server forced disconnection. (Reason: " + msgData[?"Reason"] + ")")
-			
-			state = TCPClientStates.DISC
-			
-			room_goto(rLogin)
-		
-			break
-			
-		case "Chat":
-			var author = msgData[?"Author"]
-			var content = msgData[?"Content"]
-			var colorClass = msgData[?"Color"]
-			var color = color_from_classification(colorClass)
-			
-			chat_append_message((author + ": "), content, color)
-			
-			break
-			
-		default:
-			if state == TCPClientStates.READY {
-				// TODO: Invoke generic message handling.
-			}
-			
-			break
-	}
+	msg_handle(msgDecoded)
 }
