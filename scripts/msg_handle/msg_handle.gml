@@ -6,7 +6,7 @@
 
 var msgKey = argument0[? "Key"]
 var reqAuth = global.msgHandlersAuthReqs[? msgKey]
-var isAuthed = (oTCPClient.state == TCPClientStates.READY)
+var isAuthed = (oClient.state == ClientStates.READY)
 
 if !reqAuth || (reqAuth && isAuthed) {
 	script_execute(global.msgHandlers[? msgKey], argument0)

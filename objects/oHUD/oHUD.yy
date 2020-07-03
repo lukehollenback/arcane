@@ -63,7 +63,35 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "20",
-            "varName": "chatLineHeight",
+            "varName": "lineHeight",
+            "varType": 1
+        },
+        {
+            "id": "91ba0cbe-7c45-464a-b618-2365464a3027",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "16",
+            "varName": "margin",
+            "varType": 1
+        },
+        {
+            "id": "f24bfa40-d10c-4d9a-802d-9193d1ac61c5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "padding",
             "varType": 1
         },
         {
@@ -95,34 +123,6 @@
             "varType": 1
         },
         {
-            "id": "91ba0cbe-7c45-464a-b618-2365464a3027",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "16",
-            "varName": "moduleMargin",
-            "varType": 1
-        },
-        {
-            "id": "f24bfa40-d10c-4d9a-802d-9193d1ac61c5",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "4",
-            "varName": "modulePadding",
-            "varType": 1
-        },
-        {
             "id": "4e4b7a1f-057c-4d44-9124-5ec4a9162c13",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -132,7 +132,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "moduleMargin",
+            "value": "margin",
             "varName": "quickStatsX",
             "varType": 4
         },
@@ -146,7 +146,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "moduleMargin",
+            "value": "margin",
             "varName": "quickStatsY",
             "varType": 4
         },
@@ -160,7 +160,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "(quickStatsX + (3 * modulePadding))",
+            "value": "(quickStatsX + (3 * padding))",
             "varName": "quickStatsContentX",
             "varType": 4
         },
@@ -174,7 +174,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "(quickStatsY +modulePadding)",
+            "value": "(quickStatsY +padding)",
             "varName": "quickStatsContentY",
             "varType": 4
         },
@@ -314,7 +314,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "quickStatsX + quickStatsWidth + moduleMargin + modulePadding",
+            "value": "quickStatsX + quickStatsWidth + margin + padding",
             "varName": "heartLevelX",
             "varType": 4
         },
@@ -328,7 +328,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "moduleMargin + modulePadding",
+            "value": "margin + padding",
             "varName": "heartLevelY",
             "varType": 0
         },
@@ -356,9 +356,23 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "heartLevelY + sprite_get_height(sHeartIcon) + (modulePadding * 2)",
+            "value": "heartLevelY + sprite_get_height(sHeartIcon) + (padding * 2)",
             "varName": "manaLevelY",
             "varType": 0
+        },
+        {
+            "id": "778aef04-1dbb-4d51-9a20-3b732caad095",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "InfoModules.ATTRIBUTES",
+            "varName": "currentInfoModule",
+            "varType": 4
         }
     ],
     "solid": false,

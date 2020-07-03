@@ -8,6 +8,6 @@ var msgData = argument0[? "Data"]
 
 show_debug_message("The server forced disconnection. (Reason: " + msgData[?"Reason"] + ")")
 			
-oTCPClient.state = TCPClientStates.DISC
+oClient.state = ClientStates.DISC
 			
 room_goto(rLogin)

@@ -38,6 +38,18 @@ if (keyboard_key == vk_enter) {
 	// Append the buffer of printable characters typed to the chat message currently in draft.
 	//
 	chatMessage = (chatMessage + keyboard_string);
+} else if (!chatMessageActivated) {
+	if (keyboard_key == ord("D")) {
+		global.debugMode = (!global.debugMode)
+	} else if (keyboard_key == ord("A")) {
+		currentInfoModule = InfoModules.ATTRIBUTES
+	} else if (keyboard_key == ord("S")) {
+		currentInfoModule = InfoModules.SKILLS
+	} else if (keyboard_key == ord("I")) {
+		currentInfoModule = InfoModules.INVENTORY
+	} else if (keyboard_key == ord("Q")) {
+		currentInfoModule = InfoModules.QUESTS
+	}
 }
 
 //

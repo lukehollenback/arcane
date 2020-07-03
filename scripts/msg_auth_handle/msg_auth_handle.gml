@@ -6,4 +6,4 @@
 
 show_debug_message("Authentication was successful.")
 		
-oTCPClient.state = TCPClientStates.READY
+oClient.state = ClientStates.READY

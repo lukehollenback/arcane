@@ -2,7 +2,7 @@
 /// @description Encodes and sends the provided message to the server over the
 ///  established TCP/IP connection.
 ///
-/// @param {string} message The message to encode and send.
+/// @param {number} The index of the map holding the constructed message payload.
 ///
 
 var msg = argument0
@@ -11,13 +11,13 @@ var msg = argument0
 // Make sure that we are in a valid state for sending messages.
 //
 if (
-	oTCPClient.state == TCPClientStates.CONN ||
-	oTCPClient.state == TCPClientStates.DISC ||
-	oTCPClient.state == TCPClientStates.FAILED
+	oClient.state == ClientStates.CONN ||
+	oClient.state == ClientStates.DISC ||
+	oClient.state == ClientStates.FAILED
 ) {
 	show_debug_message(
 		"Cannot send message to the server over TCP/IP! (Message: " + msg + ") (State: " +
-			oTCPClient.state + ")"
+			oClient.state + ")"
 	)
 	
 	exit
@@ -36,6 +36,6 @@ var buff = buffer_create(256, buffer_grow, 1)
 buffer_seek(buff, buffer_seek_start, 0)
 buffer_write(buff, buffer_string, msgEncoded);
 
-network_send_raw(oTCPClient.sock, buff, buffer_tell(buff))
+network_send_raw(oClient.sock, buff, buffer_tell(buff))
 
 buffer_delete(buff)

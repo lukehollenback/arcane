@@ -37,17 +37,20 @@ if (isCommand) {
 	// Actually process the command.
 	//
 	if (commandVerb == "help") {
-		chat_append_message("Game: ", "The following commands are allowed...", cc_gray);
-		chat_append_message("  - ", "!list  Lists the currently-online players.", cc_gray);
-		chat_append_message("  - ", "!msg [player] [message]  Sends a private message.", cc_gray);
+		chat_append_message("Game: ", "The following commands are allowed...", cc_gray)
+		chat_append_message("  - ", "!list  Lists the currently-online players.", cc_gray)
+		chat_append_message("  - ", "!msg [player] [message]  Sends a private message.", cc_gray)
 		chat_append_message("  - ", "!morehelp  Shows even more available commands.", cc_gray)
+		chat_append_message("  - ", "!whatis [noun] Looks up info on an object or concept.", cc_gray)
 	} else if (commandVerb == "morehelp") {
-		chat_append_message("Game: ", "The following commands are allowed...", cc_gray);
-		chat_append_message("  - ", "!kick [player]  Moderator only. Kicks a player.", cc_gray);
-		chat_append_message("  - ", "!ban [player]  Moderator only. Bans a player.", cc_gray);
+		chat_append_message("Game: ", "The following commands are allowed...", cc_gray)
+		chat_append_message("  - ", "!kick [player]  Moderator only. Kicks a player.", cc_gray)
+		chat_append_message("  - ", "!ban [player]  Moderator only. Bans a player.", cc_gray)
 		chat_append_message("  - ", "!help  Shows even more available commands.", cc_gray)
+	} else if (commandVerb == "whatis") {
+		cmd_whatis_handle(commandArgs)
 	} else {
-		chat_append_message("Game: ", "An unknown command was specified.", cc_gray);
+		chat_append_message("Game: ", "An unknown command was specified.", cc_gray)
 	}
 } else {
 	//

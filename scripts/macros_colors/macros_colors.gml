@@ -15,3 +15,4 @@
 #macro cc_yellow make_color_rgb(255, 238, 131)
 #macro cc_teal make_color_rgb(79, 164, 184)
 #macro cc_green make_color_rgb(99, 171, 63)
+#macro cc_purple make_color_rgb(105, 36, 100)
