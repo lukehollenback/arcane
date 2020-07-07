@@ -1,4 +1,4 @@
-/// @description Network connection cleanup.
+/// @desc Network connection cleanup.
 
 //
 // Destroy the socket that was used to connect to the server, subsequently disconnecting from it

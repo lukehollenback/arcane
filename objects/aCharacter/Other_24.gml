@@ -13,7 +13,7 @@ event_inherited()
 //
 // Pack the other synced variables of the object into the synchronized variables structure.
 //
-syncedVars[? "destX"] = destX
-syncedVars[? "destY"] = destY
-syncedVars[? "movementSpeed"] = movementSpeed
-syncedVars[? "isCelebrating"] = isCelebrating
+syncedVars.destX = destX
+syncedVars.destY = destY
+syncedVars.movementSpeed = movementSpeed
+syncedVars.isCelebrating = isCelebrating

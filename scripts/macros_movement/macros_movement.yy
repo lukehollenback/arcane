@@ -1,8 +1,12 @@
 {
-    "id": "55a33d77-b2d8-4677-9248-06e815f9620d",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "macros_movement",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Macros & Globals",
+    "path": "folders/Scripts/Macros & Globals.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "macros_movement",
+  "tags": [],
+  "resourceType": "GMScript",
 }
