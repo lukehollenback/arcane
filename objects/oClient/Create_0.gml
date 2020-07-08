@@ -1,4 +1,11 @@
-/// @description Instantiate variables & start connection attempt loop.
+/// @desc Instantiate variables & start connection attempt loop.
+
+//
+// Ensure that this object is a singleton instance.
+//
+if (instance_number(oClient) > 1) {
+	throw("A second instantiation of oClient was attempted. Only one instance should ever exist.")
+}
 
 //
 // Declare a "client states" enum for our state machine.
@@ -10,11 +17,6 @@ enum ClientStates {
 	FAILED,
 	DISC
 }
-
-//
-// Initialize message handlers.
-//
-msg_init()
 
 //
 // Instantiate some instance variables.

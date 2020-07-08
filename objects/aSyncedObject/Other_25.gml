@@ -12,9 +12,9 @@ event_user(14);
 //
 // Create and send the synchronization message.
 //
-var msg = msg_objsync_create(self);
+var payload = new ObjSyncMsg(self)
 
-tcp_send_msg(msg);
+oClient.Send(payload.Pack());
 
 //
 // Schedule next publish interval.

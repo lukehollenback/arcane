@@ -16,7 +16,7 @@ show_debug_message(
 if sock == sockID {
 	switch type {
 		case network_type_data:
-			tcp_handle_data_event()
+			HandleDataEvent()
 			break
 	}
 }

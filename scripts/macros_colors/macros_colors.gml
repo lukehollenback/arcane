@@ -1,5 +1,5 @@
 ///
-/// @description Registers custom color macros into the global scope.
+/// @desc Registers custom color macros into the global scope.
 ///
 
 // NOTE: Most colors used in this game come from the ROSY-42 color palette.

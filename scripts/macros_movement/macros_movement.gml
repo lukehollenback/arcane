@@ -1,6 +1,6 @@
 ///
-/// @description Registers custom macros for calculating things like movement speed. Most assume
-///  that FPS does not change.
+/// @desc Registers custom macros for calculating things like movement speed. Most assume that FPS
+///       does not change.
 ///
 
 #macro grid_size 32

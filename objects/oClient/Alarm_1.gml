@@ -6,11 +6,11 @@
 // Ping the server.
 //
 var now = (date_current_epoch_seconds() * 1000)
-var msg = msg_ping_create(now)
+var msg = new PingMsg(now)
 
 lastTxPingMicros = get_timer()
 
-tcp_send_msg(msg)
+Send(msg.Pack())
 
 //
 // Schedule the next ping.
