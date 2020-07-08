@@ -8,7 +8,6 @@ information on each.
 | November | Font           | Custom (see below) | Brandon Schoepf (Tepid Monkey) | April 21, 2020 | https://tepidmonkey.1001fonts.com/           |
 |          |                |                    |                                |                | https://www.1001fonts.com/november-font.html |
 | SNAP     | Script Library | MIT                | Juju Adams                     | July 6, 2020   | https://github.com/JujuAdams/SNAP            |
-| Scribble | Script Library | MIT                | Juju Adams                     | July 6, 2020   | https://github.com/JujuAdams/scribble        |
 
 ## Custom Licenses
 

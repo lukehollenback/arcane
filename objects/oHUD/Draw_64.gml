@@ -1,3 +1,5 @@
+scribble_draw(128, 128, "Hello [b]okay![/b].")
+
 //
 // Obtain the current size of the window.
 //
