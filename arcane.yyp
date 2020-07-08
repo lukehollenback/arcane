@@ -41,7 +41,6 @@
     {"id":{"name":"scribble_set_transform","path":"scripts/scribble_set_transform/scribble_set_transform.yy",},"order":7,},
     {"id":{"name":"sCharismaIcon","path":"sprites/sCharismaIcon/sCharismaIcon.yy",},"order":5,},
     {"id":{"name":"sWisdomIcon","path":"sprites/sWisdomIcon/sWisdomIcon.yy",},"order":6,},
-    {"id":{"name":"OpenSourceUsages","path":"notes/OpenSourceUsages/OpenSourceUsages.yy",},"order":2,},
     {"id":{"name":"scribble_bake_outline","path":"scripts/scribble_bake_outline/scribble_bake_outline.yy",},"order":3,},
     {"id":{"name":"scribble_set_starting_format","path":"scripts/scribble_set_starting_format/scribble_set_starting_format.yy",},"order":5,},
     {"id":{"name":"scribble_draw_set_transform","path":"scripts/scribble_draw_set_transform/scribble_draw_set_transform.yy",},"order":10,},
@@ -181,6 +180,7 @@
     {"folderPath":"folders/Scripts/Scribble/Pages.yy","order":6,"resourceVersion":"1.0","name":"Pages","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Shaders.yy","order":10,"resourceVersion":"1.0","name":"Shaders","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Shaders/Scribble.yy","order":1,"resourceVersion":"1.0","name":"Scribble","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Scribble.yy","order":0,"resourceVersion":"1.0","name":"Scribble","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
