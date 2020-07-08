@@ -1,4 +1,3 @@
-IntelliJ IDEA   
 # Open Source Usages & Licenses
 
 The following table lists the open source assets that this project makes use of with the best-known
