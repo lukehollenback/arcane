@@ -1,4 +1,4 @@
-scribble_draw(128, 128, "Hello [b]okay![/b].")
+scribble_draw(128, 128, "Hello, [asdf]world[/asdf]!.")
 
 //
 // Obtain the current size of the window.

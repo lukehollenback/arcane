@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "Message Service",
-    "path": "folders/Services/Message Service.yy",
+    "path": "folders/Third-Party Libraries/Services/Message Service.yy",
   },
   "resourceVersion": "1.0",
   "name": "MsgSvc_Init",
